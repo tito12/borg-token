@@ -1,7 +1,6 @@
 import React, { useMemo } from "react";
 import * as Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
-// import { Loader } from "../Loader"; // TODO
 import { chartConfiguration } from "./config";
 import {
   Period,

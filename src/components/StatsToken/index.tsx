@@ -5,7 +5,6 @@ import { chartConfiguration, dataStats } from "./config";
 import { BorgStats, PieChartData } from "../../config/types";
 import { percentage, formatNumber } from "../../utils";
 import Label from "./Label";
-// import { Loader } from "../Loader"; // TODO
 import {
   Grid,
   Card,

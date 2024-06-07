@@ -1,6 +1,6 @@
 {
   "name": "swissborg-gatsby",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "description": "swissborg-gatsby",
   "author": "v.sedenko",
@@ -15,7 +15,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "format": "npm run format:check -- --write",
+    "format": "yarn format:check -- --write",
     "format:check": "prettier --check --plugin-search-dir=. \"**/*.{ts,tsx,md,json}\" --ignore-unknown --no-error-on-unmatched-pattern"
   },
   "dependencies": {

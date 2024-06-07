@@ -103,7 +103,6 @@ export async function getServerData(): GetServerDataReturn<ServerDataProps> {
       fetch(API_BORG_ENDPOINTS.historical_price.day).then((res) => res.json()),
       fetch(API_BORG_ENDPOINTS.price).then((res) => res.json()),
       fetch(API_BORG_ENDPOINTS.borg_stats).then((res) => res.json()),
-      fetch(API_BORG_ENDPOINTS.burn_transactions).then((res) => res.json()),
     ]);
 
     return {
